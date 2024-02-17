@@ -1,0 +1,200 @@
+.header_h1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 15vh; 
+    color:darkslategray;
+}
+
+.message_div {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color:darkslategray; 
+    height: 5vh;
+}
+
+.success_message {
+    color: green;
+}
+
+.error_message {
+    color: red;
+}
+
+.form_style {
+    border: 1px solid #000000; 
+    background-color:rgba(240, 255, 240, 0.5); 
+    padding: 20px; 
+    width: 350px; 
+    margin: 0 auto;
+}
+
+.form_style input[type="text"],
+.form_style input[type="email"],
+.form_style input[type="password"] {
+    width: 100%; 
+    padding: 5px; 
+    text-align: center; 
+}
+
+textarea {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box; 
+    resize: vertical; 
+}
+
+.table_div {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+}
+
+table {
+    text-align: center;
+    margin: 0 auto; 
+    border-collapse: separate;
+    border-spacing: 10px; 
+    border: 0.5px solid black;
+}
+
+th {
+    color: darkslategray;
+    padding: 20px;
+}
+
+td {
+    padding: 20px;  
+}
+
+.back_btn_div {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 15vh;
+}
+
+.home_btn_div {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 15vh;
+}
+
+.home_btn {
+
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    background-color: #297fb1;
+    color: white; 
+    border: none; 
+    margin-top: 5px; 
+    margin-right: 5px;
+    border-radius: 10px;
+    width: 310px;
+}
+
+.submit_btn {
+    margin-top: 5px; 
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #4CAF50; 
+    color: white;
+    border: none; 
+    border-radius: 10px;
+}
+
+.back_btn {
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px; 
+    background-color: #297fb1;
+    color: white; 
+    border: none; 
+    margin-top: 5px; 
+    border-radius: 10px;
+    width: 310px;
+}
+
+.action_btn_container_div {
+    text-align: center;
+}
+
+.action_btn_container_div a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit_book_btn {
+    background-color: #4CAF50;
+    color: white; 
+    border: none; 
+    border-radius: 10px;
+    width: 240px;
+}
+
+.add_book_btn {
+    background-color: #297fb1;
+    color: white; 
+    border: none; 
+    border-radius: 10px;
+    width: 240px;
+}
+
+.allow_user_btn {
+    background-color: #4CAF50;
+    color: white; 
+    border: none; 
+    border-radius: 10px;
+    width: 240px;
+}
+
+.reject_user_btn {
+    background-color: #f12828;
+    color: white; 
+    border: none; 
+    border-radius: 10px;
+    width: 240px;
+}
+
+.change_password_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.change_password_btn {
+    padding: 10px;
+    background-color: white;
+    color: #4CAF50; 
+    border: none; 
+    margin-top: 5px; 
+    border-radius: 10px;
+    width: 310px;
+}
+
+.admin_add_book_to_collection {
+    background-color: rgba(198, 223, 237, 0.5);;
+    color: #297fb1; 
+    border: none; 
+    border-radius: 10px;
+    width: 240px;
+}
+
+.remove_book_from_collection_btn {
+    background-color: #4CAF50;
+    color: white; 
+    border: none; 
+    border-radius: 10px;
+    width: 240px;
+}
+
+.helper_text {
+    text-align: center;
+    color: #297fb1;
+}
